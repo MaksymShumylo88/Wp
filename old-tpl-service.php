@@ -19,7 +19,7 @@ get_header();
                 </div>
            	</div>
             
-        	<?php /*?><div class="row sproduct-row">
+        	<?php ?><div class="row sproduct-row">
             
             	<?php if( have_rows('service_sessions') ):
             	// loop through the rows of data
@@ -43,7 +43,7 @@ get_header();
         		</div>
                 <?php endwhile; endif; ?>
                 
-            </div><?php */?>
+            </div><?php ?>
             
             <div class="row serproduct-row">
             	<div class="serproduct-col">
