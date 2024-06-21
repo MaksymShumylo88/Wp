@@ -26,14 +26,14 @@ get_header();
 
                         <div class="social-menus">
                             <ul>
-                                <?php /*?><?php if (get_field('facebook_url', 'option') == NULL || get_field('facebook_url', 'option') == ""){ ?>
+                                <?php ?><?php if (get_field('facebook_url', 'option') == NULL || get_field('facebook_url', 'option') == ""){ ?>
                             	<?php }else{ ?>
                                     <li>
                                         <a target="_blank" href="<?php the_field('facebook_url', 'option'); ?>">
                                             <i class="fa fa-facebook"></i>
                                         </a>
                                     </li>
-                               	<?php } ?><?php */ ?>
+                               	<?php } ?><?php ?>
 
                                 <?php if (get_field('instagram_url', 'option') == NULL || get_field('instagram_url', 'option') == "") { ?>
                                 <?php } else { ?>
@@ -71,7 +71,7 @@ get_header();
                                     </li>
                                 <?php } ?>
 
-                                <?php /*?><?php if (get_field('linkedin_url', 'option') == NULL || get_field('linkedin_url', 'option') == ""){ ?>
+                                <?php ?><?php if (get_field('linkedin_url', 'option') == NULL || get_field('linkedin_url', 'option') == ""){ ?>
                               	<?php }else{ ?>
                               		<li>
                                    		<a target="_blank" href="<?php the_field('linkedin_url', 'option'); ?>">
@@ -87,7 +87,7 @@ get_header();
                                         	<i class="fa fa-twitter"></i>
                                  		</a>
                              		</li>
-                              	<?php } ?><?php */ ?>
+                              	<?php } ?><?php  ?>
 
                             </ul>
                         </div>
