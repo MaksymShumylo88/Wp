@@ -37,11 +37,11 @@ get_header();
 									<div class="sproduct-text">
 										<h2><a href="<?php the_sub_field('ssession_url'); ?>"><?php the_sub_field('ssession_title'); ?></a></h2>
 										<div class="sproduct-cart"><?php the_sub_field('ssession_shortcode'); ?></div>
-									</div>
+									</div><!-- 
 									<div class="sproduct-text">
 										<h2><a href="<?php the_sub_field('ssession_url'); ?>"><?php the_sub_field('ssession_title'); ?></a></h2>
 										<div class="sproduct-cart"><?php the_sub_field('ssession_shortcode'); ?></div>
-									</div>
+									</div> -->
 									<div class="sproduct-text">
 										<h2><a href="<?php the_sub_field('ssession_url'); ?>"><?php the_sub_field('ssession_title'); ?></a></h2>
 										<div class="sproduct-cart"><?php the_sub_field('ssession_shortcode'); ?></div>
@@ -56,9 +56,9 @@ get_header();
 
 			<div class="row serproduct-row">
 				<div class="serproduct-col">
-					<div class="serproductcol-in">
+					<!-- <div class="serproductcol-in">
 						<?php echo do_shortcode('[product id="3940"]'); ?>
-					</div>
+					</div> -->
 					<div class="serproductcol-in">
 						<?php echo do_shortcode('[product id="10118"]'); ?>
 					</div>
