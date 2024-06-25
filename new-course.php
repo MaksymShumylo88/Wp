@@ -471,13 +471,13 @@
                                         LEARN MORE
                                         <img src="<?php echo get_theme_file_uri();?>/course-images/arrowhite.png" alt=""/>
                                         </button></a>
-                                        <div class="">
+                                        <!-- <div class="">
                                             <label class="toggle">
                                             <input type="checkbox" checked>
                                             <span class="slider"></span>
                                             <span class="labels" data-on="OPENING" data-off="CLOSING"></span>
                                             </label>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="commentview">
@@ -489,9 +489,9 @@
                             </div>
                         </div>
                     </div>
-                    <?php endwhile;
+                    <!-- <?php endwhile;
                         endif;
-                        wp_reset_postdata();
+                        //wp_reset_postdata();
                         ?>
                     <div class="levelblockText text-center">
                         <h2>My Favourite Course</h2>
@@ -500,7 +500,7 @@
                             plans, and give you the inspiration you need to achieve your goals. It's time to let go of
                             the past and become the person you were meant to be.
                         </p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="row">
                     <?php
