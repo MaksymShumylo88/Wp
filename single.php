@@ -67,11 +67,11 @@ get_header(); ?>
                             	<div class="getbookbtn-in">
                                 	<div class="getbook-btn">
                                     	<a class="popmake-12948" href="javascript:void(0)">
-                                        	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/getbook-btn.png" alt="">
+                                        	<img src="<?php //echo get_stylesheet_directory_uri(); ?>/images/getbook-btn.png" alt="">
                                         </a>
                                     </div>
                                 </div>
-                            	<?php echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="true"]') ?>
+                            	<?php //echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="true"]') ?>
                             </div>
                     	</div>
                     </div>

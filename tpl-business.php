@@ -49,18 +49,18 @@ get_header();
 							</a>
 						</div>
 					</div>
-					<div class="serproductcol-in">
-						<div style='background-image:url("<?php the_field('transformational_readings_background'); ?>");' class="services-specific-subject">
-							<h3><?php the_field('transformational_readings_title'); ?></h3>
-							<p style="top: 180px"><?php the_field('transformational_readings_description'); ?></p>
-							<a href="<?php the_field('transformational_readings_button_url') ?>">
-								<div style='background-image:url("<?php the_field('service_button_background') ?>");' class="services-specific-link">
-									<span style="color:white; font-size: 18px"><?php the_field('transformational_readings_button_label') ?></span>
-									<img src="<?php the_field('button_nav_icon') ?>" alt="Button Nav Icon" width="40px">
+					<!-- <div class="serproductcol-in">
+						<div style='background-image:url("<?php //the_field('transformational_readings_background'); ?>");' class="services-specific-subject">
+							<h3><?php //the_field('transformational_readings_title'); ?></h3>
+							<p style="top: 180px"><?php //the_field('transformational_readings_description'); ?></p>
+							<a href="<?php //the_field('transformational_readings_button_url') ?>">
+								<div style='background-image:url("<?php //the_field('service_button_background') ?>");' class="services-specific-link">
+									<span style="color:white; font-size: 18px"><?php //the_field('transformational_readings_button_label') ?></span>
+									<img src="<?php //the_field('button_nav_icon') ?>" alt="Button Nav Icon" width="40px">
 								</div>
 							</a>
 						</div>
-					</div>
+					</div> -->
 					<div class="serproductcol-in">
 						<div style='background-image:url("<?php the_field('life_coaching_background'); ?>");' class="services-specific-subject">
 							<h3><?php the_field('life_coaching_title'); ?></h3>
