@@ -24,7 +24,7 @@
                     <div class="hpaulimg-wrap">
                         <div class="hpaulimg-in">
                              <div class="hpaul-img">
-                                <img src="<?php echo wp_upload_dir()['baseurl']; ?>/paul_product_bottom.png" alt="">
+                                <img src="<?php //echo wp_upload_dir()['baseurl']; ?>/paul_product_bottom.png" alt="">
                              </div>
                          </div>
                      </div>
@@ -32,8 +32,8 @@
 
                 <div class="col-5">
                     <div class="hpaul-text" style='background-image:url("<?php echo site_url(); ?>/wp-content/uploads/2020/10/commongraphic-bg.jpg");'>
-                        <h2><?php the_field('aboutpaul_title', $page_id); ?></h2>
-                        <?php the_field('aboutpaul_text', $page_id); ?>
+                        <h2><?php //the_field('aboutpaul_title', $page_id); ?></h2>
+                        <?php //the_field('aboutpaul_text', $page_id); ?>
                     </div>
                 </div>
             </div>
