@@ -29,11 +29,11 @@ get_header();
 	<div class="psection-inner">
     	<div class="container">
         
-        	<div class="contactpage-pc">
+        	<!-- <div class="contactpage-pc">
           		<a href="<?php the_field('cpc_img_url'); ?>">
                		<img src="<?php the_field('cpc_image'); ?>" alt="" />
            		</a>
-          	</div>
+          	</div> -->
             
        	</div>
     </div>
